@@ -5,6 +5,10 @@ Homebrew formulae for [dog-hero](https://github.com/dog-hero) projects.
 ## Install
 
 ```sh
+# macOS (prebuilt binary, no Xcode/CLT needed):
+brew install --cask --no-quarantine dog-hero/tap/pg_lens
+
+# Linux (Homebrew on Linux):
 brew install dog-hero/tap/pg_lens
 ```
 
