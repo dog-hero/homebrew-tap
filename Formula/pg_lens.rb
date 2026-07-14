@@ -6,21 +6,21 @@ class PgLens < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dog-hero/pg_lens/releases/download/v0.3.0/pg_lens-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "88af4cb340f205f55f830b76706b8d68a591afabf6c141ff48c9a58b7ee8909a"
+      url "https://github.com/dog-hero/pg_lens/releases/download/v0.4.0/pg_lens-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3fa6c9b56e8b4f54c24a005491de0d461799602f0735a56b71f5c3bcfcee5022"
     else
-      url "https://github.com/dog-hero/pg_lens/releases/download/v0.3.0/pg_lens-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "00d18308f4b126ccea2af85a49e0be73b4418c7fb26244330613d5d17cd8b5ff"
+      url "https://github.com/dog-hero/pg_lens/releases/download/v0.4.0/pg_lens-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "375c200c6467a3ed4821e8e5cc6fc412e3d52383eaf0bf2632f3664354c5c336"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dog-hero/pg_lens/releases/download/v0.3.0/pg_lens-v0.3.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "44c3ef3b16a5a97c696f8d04c12b5ba444d04b2880f9378c29de06082ef301a5"
+      url "https://github.com/dog-hero/pg_lens/releases/download/v0.4.0/pg_lens-v0.4.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "fdb53c6ee5ffe8132fe07a862b829053d25c8aa977d60dcc58969a9863a1d47e"
     else
-      url "https://github.com/dog-hero/pg_lens/releases/download/v0.3.0/pg_lens-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b0c020664f937511a41f2c712281322245163911f010183f246a05ceb7b0ff66"
+      url "https://github.com/dog-hero/pg_lens/releases/download/v0.4.0/pg_lens-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "7926aec7ba90350df5328b705a5046a3469d150a05b422a7ef36f3ebcbe89ffa"
     end
   end
 
