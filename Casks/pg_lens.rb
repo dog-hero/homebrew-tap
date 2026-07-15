@@ -4,8 +4,8 @@ cask "pg_lens" do
 
   arch arm: "aarch64", intel: "x86_64"
 
-  sha256 arm:   "e37e6515d1fff67212989a21ce50d7b882d946b512e4cb8af98d4d09c7244341",
-         intel: "bde0c1a19fb130b2f55b17c7f004203dc0f23a7795fa14e05f5a224a5da00c2b"
+  sha256 arm:   "fb109e866a8eb0323fc0baa97943c4644872aa6b4f00dbf2d4b7f6e5c801d9bf",
+         intel: "248e3985671ad283176593a9ad9c0450c75aa6a0397a8831cdc6afc380a83c58"
 
   url "https://github.com/dog-hero/pg_lens/releases/download/v#{version}/pg_lens-v#{version}-#{arch}-apple-darwin.tar.gz"
   name "pg_lens"
